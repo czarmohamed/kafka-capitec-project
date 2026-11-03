@@ -1,0 +1,8 @@
+{
+  "group": "audit-archiver",
+  "stats": {
+    "batches": 120,
+    "processed": 23826
+  },
+  "topic": "digitalpayments.payment.lifecycle.v1"
+}

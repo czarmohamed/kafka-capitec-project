@@ -1,0 +1,5 @@
+Option --property is deprecated and will be removed in a future version. Use --formatter-property instead.
+Partition:3	Offset:0	CUST-00000086	{"amountMinor":338862,"channel":"WEB","currency":"ZAR","customerId":"CUST-00000086","deviceRef":"a9cba0551dc81e0d410c5e62ad18e055fd0e48792536f8bd939cb94caae29e36","eventId":"787f2425-db
+Partition:3	Offset:1	CUST-00000086	{"amountMinor":338862,"channel":"WEB","currency":"ZAR","customerId":"CUST-00000086","deviceRef":"a9cba0551dc81e0d410c5e62ad18e055fd0e48792536f8bd939cb94caae29e36","eventId":"75d66ed4-eb
+Partition:3	Offset:2	CUST-00000086	{"amountMinor":338862,"channel":"WEB","currency":"ZAR","customerId":"CUST-00000086","deviceRef":"a9cba0551dc81e0d410c5e62ad18e055fd0e48792536f8bd939cb94caae29e36","eventId":"df0f06cb-cb
+Partition:3	Offset:3	CUST-00000086	{"amountMinor":338862,"channel":"WEB","currency":"ZAR","customerId":"CUST-00000086","deviceRef":"a9cba0551dc81e0d410c5e62ad18e055fd0e48792536f8bd939cb94caae29e36","eventId":"3170f437-a8

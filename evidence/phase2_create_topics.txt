@@ -1,0 +1,50 @@
+==> Creating digitalpayments.payment.lifecycle.v1
+WARNING: Due to limitations in metric names, topics with a period ('.') or underscore ('_') could collide. To avoid issues it is best to use either, but not both.
+Created topic digitalpayments.payment.lifecycle.v1.
+==> Creating digitalpayments.fraud.scores.v1
+WARNING: Due to limitations in metric names, topics with a period ('.') or underscore ('_') could collide. To avoid issues it is best to use either, but not both.
+Created topic digitalpayments.fraud.scores.v1.
+==> Creating digitalpayments.notification.events.v1
+WARNING: Due to limitations in metric names, topics with a period ('.') or underscore ('_') could collide. To avoid issues it is best to use either, but not both.
+Created topic digitalpayments.notification.events.v1.
+
+==> Describe
+Topic: digitalpayments.payment.lifecycle.v1	TopicId: kh1Jz8LeRAefF1fsWVhoyw	PartitionCount: 12	ReplicationFactor: 3	Configs: compression.type=zstd,min.insync.replicas=2,cleanup.policy=delete,retention.ms=220752000000,max.message.bytes=16384,retention.bytes=-1
+	Topic: digitalpayments.payment.lifecycle.v1	Partition: 0	Leader: 2	Replicas: 2,0,1	Isr: 2,0,1	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.payment.lifecycle.v1	Partition: 1	Leader: 0	Replicas: 0,1,2	Isr: 0,1,2	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.payment.lifecycle.v1	Partition: 2	Leader: 1	Replicas: 1,2,0	Isr: 1,2,0	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.payment.lifecycle.v1	Partition: 3	Leader: 2	Replicas: 2,1,0	Isr: 2,1,0	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.payment.lifecycle.v1	Partition: 4	Leader: 1	Replicas: 1,0,2	Isr: 1,0,2	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.payment.lifecycle.v1	Partition: 5	Leader: 0	Replicas: 0,2,1	Isr: 0,2,1	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.payment.lifecycle.v1	Partition: 6	Leader: 0	Replicas: 0,2,1	Isr: 0,2,1	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.payment.lifecycle.v1	Partition: 7	Leader: 2	Replicas: 2,1,0	Isr: 2,1,0	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.payment.lifecycle.v1	Partition: 8	Leader: 1	Replicas: 1,0,2	Isr: 1,0,2	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.payment.lifecycle.v1	Partition: 9	Leader: 2	Replicas: 2,1,0	Isr: 2,1,0	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.payment.lifecycle.v1	Partition: 10	Leader: 1	Replicas: 1,0,2	Isr: 1,0,2	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.payment.lifecycle.v1	Partition: 11	Leader: 0	Replicas: 0,2,1	Isr: 0,2,1	Elr: 	LastKnownElr: 
+Topic: digitalpayments.fraud.scores.v1	TopicId: acr1i2t8TamTlhjYMcc33w	PartitionCount: 12	ReplicationFactor: 3	Configs: compression.type=zstd,min.insync.replicas=2,cleanup.policy=delete,retention.ms=220752000000,max.message.bytes=16384,retention.bytes=-1
+	Topic: digitalpayments.fraud.scores.v1	Partition: 0	Leader: 2	Replicas: 2,0,1	Isr: 2,0,1	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.fraud.scores.v1	Partition: 1	Leader: 0	Replicas: 0,1,2	Isr: 0,1,2	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.fraud.scores.v1	Partition: 2	Leader: 1	Replicas: 1,2,0	Isr: 1,2,0	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.fraud.scores.v1	Partition: 3	Leader: 0	Replicas: 0,1,2	Isr: 0,1,2	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.fraud.scores.v1	Partition: 4	Leader: 1	Replicas: 1,2,0	Isr: 1,2,0	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.fraud.scores.v1	Partition: 5	Leader: 2	Replicas: 2,0,1	Isr: 2,0,1	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.fraud.scores.v1	Partition: 6	Leader: 1	Replicas: 1,2,0	Isr: 1,2,0	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.fraud.scores.v1	Partition: 7	Leader: 2	Replicas: 2,0,1	Isr: 2,0,1	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.fraud.scores.v1	Partition: 8	Leader: 0	Replicas: 0,1,2	Isr: 0,1,2	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.fraud.scores.v1	Partition: 9	Leader: 0	Replicas: 0,1,2	Isr: 0,1,2	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.fraud.scores.v1	Partition: 10	Leader: 1	Replicas: 1,2,0	Isr: 1,2,0	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.fraud.scores.v1	Partition: 11	Leader: 2	Replicas: 2,0,1	Isr: 2,0,1	Elr: 	LastKnownElr: 
+Topic: digitalpayments.notification.events.v1	TopicId: ksjt9w4TSti1heEKVbl73A	PartitionCount: 12	ReplicationFactor: 3	Configs: compression.type=zstd,min.insync.replicas=2,cleanup.policy=delete,retention.ms=2592000000,max.message.bytes=16384,retention.bytes=-1
+	Topic: digitalpayments.notification.events.v1	Partition: 0	Leader: 1	Replicas: 1,2,0	Isr: 1,2,0	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.notification.events.v1	Partition: 1	Leader: 2	Replicas: 2,0,1	Isr: 2,0,1	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.notification.events.v1	Partition: 2	Leader: 0	Replicas: 0,1,2	Isr: 0,1,2	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.notification.events.v1	Partition: 3	Leader: 1	Replicas: 1,0,2	Isr: 1,0,2	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.notification.events.v1	Partition: 4	Leader: 0	Replicas: 0,2,1	Isr: 0,2,1	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.notification.events.v1	Partition: 5	Leader: 2	Replicas: 2,1,0	Isr: 2,1,0	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.notification.events.v1	Partition: 6	Leader: 0	Replicas: 0,2,1	Isr: 0,2,1	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.notification.events.v1	Partition: 7	Leader: 2	Replicas: 2,1,0	Isr: 2,1,0	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.notification.events.v1	Partition: 8	Leader: 1	Replicas: 1,0,2	Isr: 1,0,2	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.notification.events.v1	Partition: 9	Leader: 1	Replicas: 1,2,0	Isr: 1,2,0	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.notification.events.v1	Partition: 10	Leader: 2	Replicas: 2,0,1	Isr: 2,0,1	Elr: 	LastKnownElr: 
+	Topic: digitalpayments.notification.events.v1	Partition: 11	Leader: 0	Replicas: 0,1,2	Isr: 0,1,2	Elr: 	LastKnownElr: 

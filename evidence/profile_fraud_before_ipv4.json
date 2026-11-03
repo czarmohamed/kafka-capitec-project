@@ -1,0 +1,79 @@
+{
+  "batch_size_seen_by_scored_payments": {
+    "count": 300,
+    "max": 200.0,
+    "mean": 55.51,
+    "p50": 23.0,
+    "p95": 200.0,
+    "p99": 200.0
+  },
+  "consumer_stats": {
+    "batches": 47,
+    "filtered_out": 853,
+    "ms_commit_kafka": 60,
+    "ms_commit_store": 50,
+    "ms_flush_outputs": 334,
+    "processed": 300
+  },
+  "handle_ms": {
+    "count": 300,
+    "max": 16.11,
+    "mean": 0.34,
+    "p50": 0.19,
+    "p95": 0.68,
+    "p99": 0.96
+  },
+  "journeys": 300,
+  "latency_ms": {
+    "count": 300,
+    "max": 392,
+    "mean": 36.5,
+    "p50": 13,
+    "p95": 172,
+    "p99": 216
+  },
+  "per_batch_ms": {
+    "batches": 47,
+    "commit_kafka": {
+      "count": 47,
+      "max": 5.21,
+      "mean": 1.37,
+      "p50": 1.24,
+      "p95": 2.13,
+      "p99": 5.21
+    },
+    "commit_store": {
+      "count": 47,
+      "max": 2.23,
+      "mean": 0.96,
+      "p50": 0.87,
+      "p95": 1.52,
+      "p99": 2.23
+    },
+    "flush_outputs": {
+      "count": 47,
+      "max": 221.58,
+      "mean": 7.13,
+      "p50": 2.09,
+      "p95": 9.21,
+      "p99": 221.58
+    }
+  },
+  "queue_ms": {
+    "count": 300,
+    "max": 376.73,
+    "mean": 36.72,
+    "p50": 13.27,
+    "p95": 172.66,
+    "p99": 215.88
+  },
+  "scored_payments": 300,
+  "seed": 55,
+  "slowest_1_percent": {
+    "count": 4,
+    "mean_batch_size": 151.0,
+    "mean_handle_ms": 4.46,
+    "mean_latency_ms": 265.5,
+    "mean_queue_ms": 261.59
+  }
+}

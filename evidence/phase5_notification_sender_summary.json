@@ -1,0 +1,9 @@
+{
+  "group": "notification-sender",
+  "stats": {
+    "batches": 120,
+    "filtered_out": 17330,
+    "processed": 6496
+  },
+  "topic": "digitalpayments.payment.lifecycle.v1"
+}

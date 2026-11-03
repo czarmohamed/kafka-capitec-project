@@ -1,0 +1,33 @@
+{
+  "delivered": 20000,
+  "delivered_by_event_type": {
+    "PAYMENT_AUTHORISED": 4854,
+    "PAYMENT_COMPLETED": 4399,
+    "PAYMENT_INITIATED": 5285,
+    "PAYMENT_INVALIDATED": 278,
+    "PAYMENT_NOT_AUTHORISED": 431,
+    "PAYMENT_NOT_COMPLETED": 177,
+    "PAYMENT_VALIDATED": 4576
+  },
+  "delivered_by_partition": {
+    "0": 1430,
+    "1": 1195,
+    "10": 1843,
+    "11": 947,
+    "2": 1071,
+    "3": 2295,
+    "4": 2210,
+    "5": 2099,
+    "6": 1999,
+    "7": 1687,
+    "8": 1453,
+    "9": 1771
+  },
+  "failed": 0,
+  "journeys": null,
+  "mode": "burst",
+  "retried_attempts": 0,
+  "run_id": "4bdea64da5d24a5fb4edc46f5b1aba73",
+  "seed": 7,
+  "unsent_after_flush": 0
+}

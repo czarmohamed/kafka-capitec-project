@@ -1,0 +1,18 @@
+{
+  "backlog_events": 300000,
+  "complete": true,
+  "dead_letters": 12,
+  "events_per_second": 23460,
+  "events_read": 300000,
+  "group": "fraud",
+  "instances": 4,
+  "note": "Restored from the console output of the sequential run. The original report file was overwritten by the concurrent run.",
+  "payload_mbit_per_second": 86,
+  "per_instance_events": [
+    73313,
+    75046,
+    76554,
+    75087
+  ],
+  "window_seconds": 12.79
+}

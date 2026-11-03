@@ -1,0 +1,39 @@
+{
+  "backlog_events": 300000,
+  "complete": true,
+  "dead_letters": 12,
+  "events_per_second": 49493,
+  "events_read": 300000,
+  "exit_codes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "group": "notification",
+  "instances": 12,
+  "payload_mbit_per_second": 181,
+  "per_instance_events": [
+    34622,
+    14125,
+    21269,
+    35956,
+    28420,
+    25385,
+    29610,
+    25006,
+    31767,
+    20663,
+    15283,
+    17894
+  ],
+  "window_seconds": 6.06
+}

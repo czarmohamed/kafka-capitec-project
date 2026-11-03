@@ -1,0 +1,18 @@
+{
+  "backlog_events": 1500000,
+  "complete": true,
+  "dead_letters": 48,
+  "events_per_second": 50078,
+  "events_read": 1500000,
+  "exit_codes": [
+    0
+  ],
+  "group": "notification",
+  "implementation": "python-lite",
+  "instances": 1,
+  "payload_mbit_per_second": 183,
+  "per_instance_events": [
+    1500000
+  ],
+  "window_seconds": 29.95
+}

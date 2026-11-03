@@ -1,0 +1,14 @@
+{
+  "group" : "notification",
+  "implementation" : "java",
+  "instances" : 1,
+  "backlog_events" : 1500000,
+  "events_read" : 1500000,
+  "complete" : true,
+  "exit_codes" : "[0]",
+  "window_seconds" : 74.7,
+  "events_per_second" : 20081,
+  "payload_mbit_per_second" : 73,
+  "per_instance_events" : "[1500000]",
+  "dead_letters" : 48
+}

@@ -1,0 +1,3 @@
+fraud-scoring partitions 12 total_lag 0 max_partition_lag 0
+notification-sender partitions 12 total_lag 0 max_partition_lag 0
+audit-archiver partitions 12 total_lag 0 max_partition_lag 0

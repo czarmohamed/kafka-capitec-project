@@ -1,0 +1,39 @@
+{
+  "backlog_events": 300000,
+  "complete": true,
+  "dead_letters": 12,
+  "events_per_second": 46727,
+  "events_read": 300000,
+  "exit_codes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "group": "fraud",
+  "instances": 12,
+  "payload_mbit_per_second": 170,
+  "per_instance_events": [
+    25006,
+    29610,
+    31767,
+    34622,
+    21269,
+    15283,
+    35956,
+    20663,
+    28420,
+    17894,
+    14125,
+    25385
+  ],
+  "window_seconds": 6.42
+}

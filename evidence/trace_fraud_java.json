@@ -1,0 +1,16 @@
+{
+  "scored" : 300,
+  "outlier_threshold_ms" : 100.0,
+  "total" : {
+    "count" : 300,
+    "max_ms" : 77.0,
+    "mean_ms" : 13.77,
+    "over_sla" : 0,
+    "p50_ms" : 12.0,
+    "p95_ms" : 22.0,
+    "p99_ms" : 31.0,
+    "sla_ms" : 1.7976931348623157E308,
+    "within_sla_percent" : 100.0
+  },
+  "worst" : [ ]
+}

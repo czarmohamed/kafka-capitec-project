@@ -1,0 +1,20 @@
+{
+  "ack_latency": {
+    "max_ms": 26.09,
+    "mean_ms": 1.32,
+    "over_sla": 0,
+    "p50_ms": 1.19,
+    "p95_ms": 1.81,
+    "p99_ms": 4.57,
+    "sla_ms": 150,
+    "within_sla_percent": 100.0
+  },
+  "events_sent": 1144,
+  "journeys": 300,
+  "measured_events": 1094,
+  "not_acknowledged": 0,
+  "producer_output": "output/ack-latency-1793611161",
+  "seed": 88,
+  "unsent_after_flush": 0,
+  "warm_up_events_discarded": 50
+}

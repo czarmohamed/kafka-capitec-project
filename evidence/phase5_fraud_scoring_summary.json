@@ -1,0 +1,9 @@
+{
+  "group": "fraud-scoring",
+  "stats": {
+    "batches": 120,
+    "filtered_out": 17541,
+    "processed": 6285
+  },
+  "topic": "digitalpayments.payment.lifecycle.v1"
+}

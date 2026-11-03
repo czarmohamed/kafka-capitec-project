@@ -1,0 +1,38 @@
+{
+  "journeys" : 300,
+  "seed" : 55,
+  "scored_payments" : 300,
+  "latency_ms" : {
+    "count" : 300,
+    "max_ms" : 36.0,
+    "mean_ms" : 15.68,
+    "over_sla" : 0,
+    "p50_ms" : 15.0,
+    "p95_ms" : 27.0,
+    "p99_ms" : 35.0,
+    "sla_ms" : 50.0,
+    "within_sla_percent" : 100.0
+  },
+  "queue_ms" : {
+    "count" : 300,
+    "max_ms" : 36.0,
+    "mean_ms" : 15.46,
+    "over_sla" : 0,
+    "p50_ms" : 15.0,
+    "p95_ms" : 27.0,
+    "p99_ms" : 35.0,
+    "sla_ms" : 1.7976931348623157E308,
+    "within_sla_percent" : 100.0
+  },
+  "handle_ms" : {
+    "count" : 300,
+    "max_ms" : 1.0,
+    "mean_ms" : 0.27,
+    "over_sla" : 0,
+    "p50_ms" : 0.27,
+    "p95_ms" : 0.46,
+    "p99_ms" : 0.58,
+    "sla_ms" : 1.7976931348623157E308,
+    "within_sla_percent" : 100.0
+  }
+}

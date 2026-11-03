@@ -1,0 +1,18 @@
+{
+  "delivered": 1500000,
+  "errors": [],
+  "events_per_second": 703683,
+  "events_requested": 1500000,
+  "failed": 0,
+  "label": "big-p2-lz4-256k-linger20",
+  "payload_mb_per_second": 321.3,
+  "payload_mbit_per_second": 2570.3,
+  "processes": 2,
+  "settings": {
+    "batch_size": 262144,
+    "compression": "lz4",
+    "linger_ms": 20
+  },
+  "unsent": 0,
+  "window_seconds": 2.13
+}
