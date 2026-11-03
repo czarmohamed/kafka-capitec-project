@@ -1,0 +1,14 @@
+{
+  "group" : "audit",
+  "implementation" : "java",
+  "instances" : 12,
+  "backlog_events" : 1500000,
+  "events_read" : 1500000,
+  "complete" : true,
+  "exit_codes" : "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+  "window_seconds" : 31.99,
+  "events_per_second" : 46890,
+  "payload_mbit_per_second" : 171,
+  "per_instance_events" : "[105095, 89506, 172452, 157371, 150334, 128073, 104627, 126939, 143256, 67970, 74795, 179582]",
+  "dead_letters" : 48
+}

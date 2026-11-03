@@ -1,0 +1,51 @@
+# fraud-scoring
+
+Consumer group 'fraud-scoring' has no active members.
+
+GROUP           TOPIC                                PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+fraud-scoring   digitalpayments.payment.lifecycle.v1 0          1693            1693            0               -               -               -
+fraud-scoring   digitalpayments.payment.lifecycle.v1 1          1397            1397            0               -               -               -
+fraud-scoring   digitalpayments.payment.lifecycle.v1 2          1279            1279            0               -               -               -
+fraud-scoring   digitalpayments.payment.lifecycle.v1 3          2738            2738            0               -               -               -
+fraud-scoring   digitalpayments.payment.lifecycle.v1 4          2597            2597            0               -               -               -
+fraud-scoring   digitalpayments.payment.lifecycle.v1 5          2571            2571            0               -               -               -
+fraud-scoring   digitalpayments.payment.lifecycle.v1 6          2354            2354            0               -               -               -
+fraud-scoring   digitalpayments.payment.lifecycle.v1 7          2058            2058            0               -               -               -
+fraud-scoring   digitalpayments.payment.lifecycle.v1 8          1721            1721            0               -               -               -
+fraud-scoring   digitalpayments.payment.lifecycle.v1 9          2068            2068            0               -               -               -
+fraud-scoring   digitalpayments.payment.lifecycle.v1 10         2262            2262            0               -               -               -
+fraud-scoring   digitalpayments.payment.lifecycle.v1 11         1088            1088            0               -               -               -
+# notification-sender
+
+Consumer group 'notification-sender' has no active members.
+
+GROUP               TOPIC                                PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+notification-sender digitalpayments.payment.lifecycle.v1 0          1693            1693            0               -               -               -
+notification-sender digitalpayments.payment.lifecycle.v1 1          1397            1397            0               -               -               -
+notification-sender digitalpayments.payment.lifecycle.v1 2          1279            1279            0               -               -               -
+notification-sender digitalpayments.payment.lifecycle.v1 3          2738            2738            0               -               -               -
+notification-sender digitalpayments.payment.lifecycle.v1 4          2597            2597            0               -               -               -
+notification-sender digitalpayments.payment.lifecycle.v1 5          2571            2571            0               -               -               -
+notification-sender digitalpayments.payment.lifecycle.v1 6          2354            2354            0               -               -               -
+notification-sender digitalpayments.payment.lifecycle.v1 7          2058            2058            0               -               -               -
+notification-sender digitalpayments.payment.lifecycle.v1 8          1721            1721            0               -               -               -
+notification-sender digitalpayments.payment.lifecycle.v1 9          2068            2068            0               -               -               -
+notification-sender digitalpayments.payment.lifecycle.v1 10         2262            2262            0               -               -               -
+notification-sender digitalpayments.payment.lifecycle.v1 11         1088            1088            0               -               -               -
+# audit-archiver
+
+Consumer group 'audit-archiver' has no active members.
+
+GROUP           TOPIC                                PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+audit-archiver  digitalpayments.payment.lifecycle.v1 0          1693            1693            0               -               -               -
+audit-archiver  digitalpayments.payment.lifecycle.v1 1          1397            1397            0               -               -               -
+audit-archiver  digitalpayments.payment.lifecycle.v1 2          1279            1279            0               -               -               -
+audit-archiver  digitalpayments.payment.lifecycle.v1 3          2738            2738            0               -               -               -
+audit-archiver  digitalpayments.payment.lifecycle.v1 4          2597            2597            0               -               -               -
+audit-archiver  digitalpayments.payment.lifecycle.v1 5          2571            2571            0               -               -               -
+audit-archiver  digitalpayments.payment.lifecycle.v1 6          2354            2354            0               -               -               -
+audit-archiver  digitalpayments.payment.lifecycle.v1 7          2058            2058            0               -               -               -
+audit-archiver  digitalpayments.payment.lifecycle.v1 8          1721            1721            0               -               -               -
+audit-archiver  digitalpayments.payment.lifecycle.v1 9          2068            2068            0               -               -               -
+audit-archiver  digitalpayments.payment.lifecycle.v1 10         2262            2262            0               -               -               -
+audit-archiver  digitalpayments.payment.lifecycle.v1 11         1088            1088            0               -               -               -

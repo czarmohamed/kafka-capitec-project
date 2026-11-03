@@ -1,0 +1,18 @@
+{
+  "label" : "java-producer-x4",
+  "implementation" : "java",
+  "processes" : 4,
+  "topic" : "digitalpayments.loadtest.v1",
+  "settings" : {
+    "compression" : "zstd",
+    "batch_size" : 262144,
+    "linger_ms" : 5
+  },
+  "events_requested" : 1500000,
+  "delivered" : 1500000,
+  "failed" : 0,
+  "window_seconds" : 1.81,
+  "events_per_second" : 829232,
+  "payload_mb_per_second" : 378.7,
+  "payload_mbit_per_second" : 3029.2
+}

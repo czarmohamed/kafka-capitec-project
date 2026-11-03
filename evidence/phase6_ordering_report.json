@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "every_customer_in_one_partition": true,
+    "every_event_time_increases": true,
+    "every_payment_in_one_partition": true,
+    "every_payment_is_a_valid_journey_or_prefix": true,
+    "every_record_key_is_customer_id": true,
+    "every_sequence_in_offset_order": true
+  },
+  "complete_journeys": 46423,
+  "customers": 200,
+  "customers_split_across_partitions": 0,
+  "partial_journeys": 45,
+  "passed": true,
+  "payments": 46468,
+  "payments_with_contiguous_offsets": 46468,
+  "record_key_mismatches": 0,
+  "records": 176018,
+  "topic": "digitalpayments.payment.lifecycle.v1"
+}

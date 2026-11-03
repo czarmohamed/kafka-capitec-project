@@ -1,0 +1,31 @@
+{
+  "consumer_exit_codes": [
+    0,
+    0
+  ],
+  "consumer_warm_up_seconds": 3.3,
+  "fraud": {
+    "count": 300,
+    "max_ms": 1048.0,
+    "over_sla": 276,
+    "p50_ms": 154.0,
+    "p95_ms": 985.0,
+    "p99_ms": 1034.0,
+    "sla_ms": 50,
+    "within_sla_percent": 8.0
+  },
+  "journeys_produced": 300,
+  "new_lifecycle_records": 1133,
+  "notification": {
+    "count": 309,
+    "max_ms": 1054.0,
+    "over_sla": 0,
+    "p50_ms": 152.0,
+    "p95_ms": 989.0,
+    "p99_ms": 1043.0,
+    "sla_ms": 2000,
+    "within_sla_percent": 100.0
+  },
+  "producer_output": "output/latency-1793610160",
+  "seed": 77
+}

@@ -1,0 +1,11 @@
+lifecycle end offsets before drill: 26092
+11:00:12 deleting pod kafka-1 while the producer is writing
+pod "kafka-1" deleted from default namespace
+11:00:22 under-replicated partitions during outage: 86
+producer exit status: 0
+pod/kafka-1 condition met
+11:00:24 kafka-1 is ready again; under-replicated partitions now: 0
+lifecycle end offsets after drill: 29139
+offsets added during drill: 3047
+producer summary:
+{'delivered': 3047, 'failed': 0, 'retried_attempts': 0, 'unsent_after_flush': 0}

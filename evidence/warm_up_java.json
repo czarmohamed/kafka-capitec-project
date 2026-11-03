@@ -1,0 +1,27 @@
+{
+  "method" : "Fresh JVM per run. Measures the first payment event sent after start-up.",
+  "seed" : 123,
+  "cold_first_event" : {
+    "count" : 20,
+    "max_ms" : 151.12,
+    "mean_ms" : 124.61,
+    "over_sla" : 20,
+    "p50_ms" : 118.12,
+    "p95_ms" : 147.92,
+    "p99_ms" : 151.12,
+    "sla_ms" : 100.0,
+    "within_sla_percent" : 0.0
+  },
+  "built_warm_up_first_event" : {
+    "count" : 20,
+    "max_ms" : 13.67,
+    "mean_ms" : 11.84,
+    "over_sla" : 0,
+    "p50_ms" : 12.04,
+    "p95_ms" : 13.43,
+    "p99_ms" : 13.67,
+    "sla_ms" : 100.0,
+    "within_sla_percent" : 100.0
+  },
+  "generated_at" : "2026-11-02T11:50:51.817104Z"
+}

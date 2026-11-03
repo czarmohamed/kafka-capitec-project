@@ -1,0 +1,19 @@
+{
+  "delivered": 300000,
+  "errors": [],
+  "events_per_second": 504474,
+  "events_requested": 300000,
+  "failed": 0,
+  "label": "consumer-backlog",
+  "payload_mb_per_second": 230.3,
+  "payload_mbit_per_second": 1842.6,
+  "processes": 1,
+  "settings": {
+    "batch_size": 262144,
+    "compression": "zstd",
+    "linger_ms": 5,
+    "topic": "digitalpayments.consumertest.v1"
+  },
+  "unsent": 0,
+  "window_seconds": 0.59
+}

@@ -1,0 +1,1 @@
+{"backlog_events": 300000, "complete": true, "dead_letters": 12, "events_per_second": 11203, "events_read": 300000, "exit_codes": [0, 0, 0, 0], "group": "notification", "instances": 4, "payload_mbit_per_second": 41, "per_instance_events": [76554, 75046, 73313, 75087], "window_seconds": 26.78}

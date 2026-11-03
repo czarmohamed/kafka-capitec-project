@@ -1,0 +1,30 @@
+{
+  "journeys_produced" : 300,
+  "seed" : 77,
+  "consumer_warm_up_seconds" : 3.876,
+  "producer_output" : "output/java-clean/latency-java-1793620172/producer",
+  "consumer_exit_codes" : "[0, 0]",
+  "new_lifecycle_records" : 1121,
+  "fraud" : {
+    "count" : 300,
+    "max_ms" : 53.0,
+    "mean_ms" : 20.29,
+    "over_sla" : 1,
+    "p50_ms" : 20.0,
+    "p95_ms" : 31.0,
+    "p99_ms" : 46.0,
+    "sla_ms" : 50.0,
+    "within_sla_percent" : 99.67
+  },
+  "notification" : {
+    "count" : 311,
+    "max_ms" : 35.0,
+    "mean_ms" : 14.02,
+    "over_sla" : 0,
+    "p50_ms" : 14.0,
+    "p95_ms" : 21.0,
+    "p99_ms" : 28.0,
+    "sla_ms" : 2000.0,
+    "within_sla_percent" : 100.0
+  }
+}

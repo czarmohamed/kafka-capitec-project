@@ -1,0 +1,21 @@
+# digitalpayments.payment.lifecycle.v1
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  compression.type=zstd sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:compression.type=zstd, DEFAULT_CONFIG:compression.type=producer}
+  max.message.bytes=16384 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:max.message.bytes=16384, DEFAULT_CONFIG:message.max.bytes=1048588}
+  min.insync.replicas=2 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=2, DYNAMIC_DEFAULT_BROKER_CONFIG:min.insync.replicas=2, STATIC_BROKER_CONFIG:min.insync.replicas=2, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=220752000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=220752000000}
+# digitalpayments.fraud.scores.v1
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  compression.type=zstd sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:compression.type=zstd, DEFAULT_CONFIG:compression.type=producer}
+  max.message.bytes=16384 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:max.message.bytes=16384, DEFAULT_CONFIG:message.max.bytes=1048588}
+  min.insync.replicas=2 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=2, DYNAMIC_DEFAULT_BROKER_CONFIG:min.insync.replicas=2, STATIC_BROKER_CONFIG:min.insync.replicas=2, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=220752000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=220752000000}
+# digitalpayments.notification.events.v1
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  compression.type=zstd sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:compression.type=zstd, DEFAULT_CONFIG:compression.type=producer}
+  max.message.bytes=16384 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:max.message.bytes=16384, DEFAULT_CONFIG:message.max.bytes=1048588}
+  min.insync.replicas=2 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=2, DYNAMIC_DEFAULT_BROKER_CONFIG:min.insync.replicas=2, STATIC_BROKER_CONFIG:min.insync.replicas=2, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=2592000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=2592000000}

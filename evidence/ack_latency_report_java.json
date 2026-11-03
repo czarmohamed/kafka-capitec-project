@@ -1,0 +1,19 @@
+{
+  "journeys" : 300,
+  "seed" : 88,
+  "events_sent" : 1139,
+  "warm_up_events_discarded" : 50,
+  "measured_events" : 1089,
+  "not_acknowledged" : 0,
+  "ack_latency" : {
+    "count" : 1089,
+    "max_ms" : 20.51,
+    "mean_ms" : 1.18,
+    "over_sla" : 0,
+    "p50_ms" : 0.94,
+    "p95_ms" : 1.88,
+    "p99_ms" : 6.96,
+    "sla_ms" : 150.0,
+    "within_sla_percent" : 100.0
+  }
+}

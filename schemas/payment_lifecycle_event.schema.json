@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "digitalpayments.payment.lifecycle.v1",
+  "title": "Payment lifecycle event",
+  "description": "One state transition of a digital payment. Published to digitalpayments.payment.lifecycle.v1, keyed by customerId.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "eventId",
+    "schemaVersion",
+    "eventType",
+    "eventTime",
+    "paymentId",
+    "customerId",
+    "merchantId",
+    "channel",
+    "paymentType",
+    "amountMinor",
+    "currency",
+    "sequence",
+    "idempotencyKey",
+    "reasonCode",
+    "deviceRef"
+  ],
+  "properties": {
+    "eventId": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique per event. Generated once and reused on retries, so consumers can deduplicate."
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "eventType": {
+      "enum": [
+        "PAYMENT_INITIATED",
+        "PAYMENT_AUTHORISED",
+        "PAYMENT_NOT_AUTHORISED",
+        "PAYMENT_VALIDATED",
+        "PAYMENT_INVALIDATED",
+        "PAYMENT_COMPLETED",
+        "PAYMENT_NOT_COMPLETED"
+      ]
+    },
+    "eventTime": {
+      "type": "string",
+      "format": "date-time",
+      "description": "UTC, millisecond precision, e.g. 2026-11-02T10:15:30.123Z."
+    },
+    "paymentId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "customerId": {
+      "type": "string",
+      "pattern": "^CUST-[0-9]{8}$",
+      "description": "Tokenised customer reference. Also the partition key."
+    },
+    "merchantId": {
+      "type": "string",
+      "pattern": "^MERCH-[0-9]{6}$"
+    },
+    "channel": {
+      "enum": ["MOBILE_APP", "WEB", "POS", "QR"]
+    },
+    "paymentType": {
+      "enum": ["EFT", "CARD_PRESENT", "CARD_NOT_PRESENT", "QR"]
+    },
+    "amountMinor": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Amount in minor units (cents). Never a float."
+    },
+    "currency": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$",
+      "description": "ISO 4217 code, e.g. ZAR."
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Position of this event within its payment, starting at 1. Used to verify ordering."
+    },
+    "idempotencyKey": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 64,
+      "description": "Supplied by the initiating system. Identical on every event for one payment."
+    },
+    "reasonCode": {
+      "type": ["string", "null"],
+      "maxLength": 32,
+      "description": "Set on failure events, e.g. INSUFFICIENT_FUNDS. Null otherwise."
+    },
+    "deviceRef": {
+      "type": ["string", "null"],
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "SHA-256 of the device identifier. Null when unavailable."
+    }
+  }
+}

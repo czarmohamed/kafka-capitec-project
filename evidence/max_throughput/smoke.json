@@ -1,0 +1,17 @@
+{
+  "delivered": 50000,
+  "events_per_second": 139349,
+  "events_requested": 50000,
+  "failed": 0,
+  "label": "smoke",
+  "payload_mb_per_second": 63.6,
+  "payload_mbit_per_second": 508.6,
+  "processes": 1,
+  "settings": {
+    "batch_size": 65536,
+    "compression": "zstd",
+    "linger_ms": 5
+  },
+  "unsent": 0,
+  "window_seconds": 0.36
+}

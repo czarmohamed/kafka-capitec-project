@@ -1,0 +1,40 @@
+{
+  "backlog_events": 1500000,
+  "complete": true,
+  "dead_letters": 48,
+  "events_per_second": 187795,
+  "events_read": 1500000,
+  "exit_codes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "group": "fraud",
+  "implementation": "python-lite",
+  "instances": 12,
+  "payload_mbit_per_second": 685,
+  "per_instance_events": [
+    105095,
+    89506,
+    172452,
+    157371,
+    150334,
+    128073,
+    104627,
+    126939,
+    143256,
+    67970,
+    74795,
+    179582
+  ],
+  "window_seconds": 7.99
+}

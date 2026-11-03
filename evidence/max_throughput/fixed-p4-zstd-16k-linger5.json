@@ -1,0 +1,18 @@
+{
+  "delivered": 1500000,
+  "errors": [],
+  "events_per_second": 139816,
+  "events_requested": 1500000,
+  "failed": 0,
+  "label": "fixed-p4-zstd-16k-linger5",
+  "payload_mb_per_second": 63.8,
+  "payload_mbit_per_second": 510.7,
+  "processes": 4,
+  "settings": {
+    "batch_size": 16384,
+    "compression": "zstd",
+    "linger_ms": 5
+  },
+  "unsent": 0,
+  "window_seconds": 10.73
+}

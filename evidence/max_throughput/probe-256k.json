@@ -1,0 +1,22 @@
+{
+  "delivered": 735,
+  "errors": [
+    "KafkaError{code=MSG_SIZE_TOO_LARGE,val=10,str=\"Broker: Message size too large\"}",
+    "KafkaError{code=MSG_SIZE_TOO_LARGE,val=10,str=\"Broker: Message size too large\"}",
+    "KafkaError{code=MSG_SIZE_TOO_LARGE,val=10,str=\"Broker: Message size too large\"}"
+  ],
+  "events_per_second": 20720,
+  "events_requested": 20000,
+  "failed": 19265,
+  "label": "probe-256k",
+  "payload_mb_per_second": 257.2,
+  "payload_mbit_per_second": 2057.4,
+  "processes": 1,
+  "settings": {
+    "batch_size": 262144,
+    "compression": "zstd",
+    "linger_ms": 20
+  },
+  "unsent": 0,
+  "window_seconds": 0.04
+}

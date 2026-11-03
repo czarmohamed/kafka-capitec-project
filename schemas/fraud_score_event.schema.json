@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "digitalpayments.fraud.scores.v1",
+  "title": "Fraud score event",
+  "description": "Real-time fraud score for one PAYMENT_INITIATED event. Published to digitalpayments.fraud.scores.v1, keyed by customerId.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "eventId",
+    "schemaVersion",
+    "eventTime",
+    "sourceEventId",
+    "paymentId",
+    "customerId",
+    "score",
+    "band",
+    "modelVersion"
+  ],
+  "properties": {
+    "eventId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "eventTime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "sourceEventId": {
+      "type": "string",
+      "format": "uuid",
+      "description": "eventId of the PAYMENT_INITIATED event that was scored."
+    },
+    "paymentId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "customerId": {
+      "type": "string",
+      "pattern": "^CUST-[0-9]{8}$"
+    },
+    "score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "band": {
+      "enum": ["LOW", "MEDIUM", "HIGH"],
+      "description": "Derived from score: LOW below 40, MEDIUM 40 to 74, HIGH 75 and above."
+    },
+    "modelVersion": {
+      "type": "string",
+      "maxLength": 32
+    }
+  }
+}

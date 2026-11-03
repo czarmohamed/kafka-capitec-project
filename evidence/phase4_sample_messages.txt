@@ -1,0 +1,5 @@
+Option --property is deprecated and will be removed in a future version. Use --formatter-property instead.
+Partition:0	Offset:0	CUST-00000008	{"amountMinor":1064806,"channel":"WEB","currency":"ZAR","customerId":"CUST-00000008","deviceRef":"6f88b4541e4f9ec305bc4ef957def001a128390ce86c3f2e9cbd46b6424af321","
+Partition:0	Offset:1	CUST-00000008	{"amountMinor":1064806,"channel":"WEB","currency":"ZAR","customerId":"CUST-00000008","deviceRef":"6f88b4541e4f9ec305bc4ef957def001a128390ce86c3f2e9cbd46b6424af321","
+Partition:0	Offset:2	CUST-00000008	{"amountMinor":1064806,"channel":"WEB","currency":"ZAR","customerId":"CUST-00000008","deviceRef":"6f88b4541e4f9ec305bc4ef957def001a128390ce86c3f2e9cbd46b6424af321","
+Partition:0	Offset:3	CUST-00000008	{"amountMinor":1064806,"channel":"WEB","currency":"ZAR","customerId":"CUST-00000008","deviceRef":"6f88b4541e4f9ec305bc4ef957def001a128390ce86c3f2e9cbd46b6424af321","

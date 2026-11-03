@@ -1,0 +1,12 @@
+digitalpayments.payment.lifecycle.v1:0:1693
+digitalpayments.payment.lifecycle.v1:1:1397
+digitalpayments.payment.lifecycle.v1:10:2262
+digitalpayments.payment.lifecycle.v1:11:1088
+digitalpayments.payment.lifecycle.v1:2:1279
+digitalpayments.payment.lifecycle.v1:3:2738
+digitalpayments.payment.lifecycle.v1:4:2597
+digitalpayments.payment.lifecycle.v1:5:2571
+digitalpayments.payment.lifecycle.v1:6:2354
+digitalpayments.payment.lifecycle.v1:7:2058
+digitalpayments.payment.lifecycle.v1:8:1721
+digitalpayments.payment.lifecycle.v1:9:2068

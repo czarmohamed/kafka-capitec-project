@@ -1,0 +1,52 @@
+{
+  "broker_lifecycle_end_offsets_total" : 61654,
+  "checks" : {
+    "audit_archive_matches_producer_ids_exactly" : true,
+    "broker_end_offsets_equal_producer_deliveries" : true,
+    "fraud_scores_cover_every_initiated_payment_exactly" : true,
+    "lifecycle_topic_matches_producer_ids_exactly" : true,
+    "notifications_cover_every_eligible_payment_exactly" : true,
+    "producer_failed_events_is_zero" : true
+  },
+  "passed" : true,
+  "producer_deliveries" : 61654,
+  "producer_failed" : 0,
+  "stages" : {
+    "audit_archive" : {
+      "actual_records" : 61654,
+      "distinct_actual" : 61654,
+      "duplicates" : 0,
+      "exact_match" : true,
+      "expected" : 61654,
+      "missing" : 0,
+      "unexpected" : 0
+    },
+    "fraud_scores" : {
+      "actual_records" : 16262,
+      "distinct_actual" : 16262,
+      "duplicates" : 0,
+      "exact_match" : true,
+      "expected" : 16262,
+      "missing" : 0,
+      "unexpected" : 0
+    },
+    "lifecycle_topic" : {
+      "actual_records" : 61654,
+      "distinct_actual" : 61654,
+      "duplicates" : 0,
+      "exact_match" : true,
+      "expected" : 61654,
+      "missing" : 0,
+      "unexpected" : 0
+    },
+    "notification_events" : {
+      "actual_records" : 16703,
+      "distinct_actual" : 16703,
+      "duplicates" : 0,
+      "exact_match" : true,
+      "expected" : 16703,
+      "missing" : 0,
+      "unexpected" : 0
+    }
+  }
+}

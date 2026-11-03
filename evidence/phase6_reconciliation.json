@@ -1,0 +1,61 @@
+{
+  "broker_lifecycle_end_offsets_total": 176018,
+  "checks": {
+    "audit_archive_matches_producer_ids_exactly": true,
+    "broker_end_offsets_equal_producer_deliveries": true,
+    "fraud_scores_cover_every_initiated_payment_exactly": true,
+    "lifecycle_topic_matches_producer_ids_exactly": true,
+    "notifications_cover_every_eligible_payment_exactly": true,
+    "producer_failed_events_is_zero": true
+  },
+  "event_types": {
+    "PAYMENT_AUTHORISED": 42714,
+    "PAYMENT_COMPLETED": 39015,
+    "PAYMENT_INITIATED": 46468,
+    "PAYMENT_INVALIDATED": 2300,
+    "PAYMENT_NOT_AUTHORISED": 3710,
+    "PAYMENT_NOT_COMPLETED": 1398,
+    "PAYMENT_VALIDATED": 40413
+  },
+  "passed": true,
+  "producer_deliveries": 176018,
+  "producer_failed": 0,
+  "stages": {
+    "audit_archive": {
+      "actual_records": 176018,
+      "distinct_actual": 176018,
+      "duplicates": 0,
+      "exact_match": true,
+      "expected": 176018,
+      "missing": 0,
+      "unexpected": 0
+    },
+    "fraud_scores": {
+      "actual_records": 46468,
+      "distinct_actual": 46468,
+      "duplicates": 0,
+      "exact_match": true,
+      "expected": 46468,
+      "missing": 0,
+      "unexpected": 0
+    },
+    "lifecycle_topic": {
+      "actual_records": 176018,
+      "distinct_actual": 176018,
+      "duplicates": 0,
+      "exact_match": true,
+      "expected": 176018,
+      "missing": 0,
+      "unexpected": 0
+    },
+    "notification_events": {
+      "actual_records": 47821,
+      "distinct_actual": 47821,
+      "duplicates": 0,
+      "exact_match": true,
+      "expected": 47821,
+      "missing": 0,
+      "unexpected": 0
+    }
+  }
+}
